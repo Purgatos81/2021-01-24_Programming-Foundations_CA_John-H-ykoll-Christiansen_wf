@@ -14,7 +14,6 @@ for (let CountTo25 = 15; CountTo25 < 26; CountTo25++) {
 }
 
 
-
 // Question 3
 
 
@@ -25,6 +24,19 @@ for (let CountTo25 = 15; CountTo25 < 26; CountTo25++) {
 
 
 // Question 6
+var head = document.querySelector("title");
+var classButton = document.querySelector("button.page");
+var body = document.querySelector("body");
+var h1 = document.querySelector("h1");
+
+function changePage() {
+    head.innerHTML = "Updated title";
+    body.style.backgroundColor = "yellow";
+    h1.style.color = "green";
+    h1.style.fontFamily = "impact";
+}
+
+classButton.onclick = changePage;
 
 
 // Question 7
